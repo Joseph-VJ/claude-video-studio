@@ -1,0 +1,47 @@
+[
+  {
+    "text": "This",
+    "startMs": 0,
+    "endMs": 280
+  },
+  {
+    "text": "is",
+    "startMs": 280,
+    "endMs": 440
+  },
+  {
+    "text": "a",
+    "startMs": 440,
+    "endMs": 560
+  },
+  {
+    "text": "test.",
+    "startMs": 560,
+    "endMs": 920
+  },
+  {
+    "text": "Your",
+    "startMs": 1860,
+    "endMs": 2020
+  },
+  {
+    "text": "video",
+    "startMs": 2020,
+    "endMs": 2340
+  },
+  {
+    "text": "editor",
+    "startMs": 2340,
+    "endMs": 2660
+  },
+  {
+    "text": "is",
+    "startMs": 2660,
+    "endMs": 2940
+  },
+  {
+    "text": "ready.",
+    "startMs": 2940,
+    "endMs": 3200
+  }
+]

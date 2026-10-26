@@ -1,0 +1,56 @@
+{
+  "text": "This is a local video editing test. Every word matters.",
+  "audio_duration_secs": 4.833787,
+  "words": [
+    {
+      "text": "This",
+      "start": 0,
+      "end": 0.28
+    },
+    {
+      "text": "is",
+      "start": 0.28,
+      "end": 0.44
+    },
+    {
+      "text": "a",
+      "start": 0.44,
+      "end": 0.54
+    },
+    {
+      "text": "local",
+      "start": 0.54,
+      "end": 0.76
+    },
+    {
+      "text": "video",
+      "start": 0.76,
+      "end": 1.1
+    },
+    {
+      "text": "editing",
+      "start": 1.1,
+      "end": 1.48
+    },
+    {
+      "text": "test.",
+      "start": 1.48,
+      "end": 1.94
+    },
+    {
+      "text": "Every",
+      "start": 2.9,
+      "end": 3.18
+    },
+    {
+      "text": "word",
+      "start": 3.18,
+      "end": 3.44
+    },
+    {
+      "text": "matters.",
+      "start": 3.44,
+      "end": 3.82
+    }
+  ]
+}

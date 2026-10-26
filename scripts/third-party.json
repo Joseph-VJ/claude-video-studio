@@ -1,0 +1,34 @@
+{
+  "_": "Third-party code is fetched at install time from its own upstream at a pinned commit. Nothing below is copied into this repository except the Apache-2.0 HyperFrames skills in third_party/ (with their licence).",
+  "skillSources": [
+    {
+      "name": "video-agent-skills",
+      "url": "https://github.com/Melvynx/video-agent-skills.git",
+      "commit": "4774fa4f2601baa822fd513387202c26e4587902",
+      "license": "MIT",
+      "copyDirsFrom": "skills",
+      "into": ".agents/skills",
+      "provides": "broll clips codex-images editing insta-audit outliers publish short-editing short-translate steal studio-script studio-setup vox"
+    },
+    {
+      "name": "video-edit-skill",
+      "url": "https://github.com/tenfoldmarc/video-edit-skill.git",
+      "commit": "3f01f2ebad12e1c6916eb66e32d6b816a3c7b41d",
+      "license": "none stated upstream: fetched for the user's own use, never redistributed here",
+      "copyWholeRepoTo": ".agents/skills/video-edit"
+    }
+  ],
+  "repos": [
+    {
+      "name": "free247editor",
+      "url": "https://github.com/riecodes/free247editor.git",
+      "commit": "86bb088d08c6209c6b427385fe363c8110de3b5b",
+      "license": "MIT",
+      "into": "repos/free247editor",
+      "afterClone": "node setup.mjs  (installs the Herk Edit Kit, pinned inside that script, into kit/)"
+    }
+  ],
+  "localThirdParty": [
+    {"from": "third_party/hyperframes-skills", "into": ".agents/skills", "license": "Apache-2.0 (github.com/heygen-com/hyperframes)"}
+  ]
+}

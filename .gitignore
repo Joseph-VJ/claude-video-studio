@@ -1,0 +1,62 @@
+# Everything personal, large or regenerable stays on your PC. Rules start with / so they only match the top level.
+
+# --- your footage and renders (never commit media) ---
+/raw/
+/out/
+/work/
+/downloads/
+/references/
+/video referecne/
+/video-agent/
+/assets/
+*.mp4
+*.mov
+*.mkv
+*.avi
+*.webm
+*.m4v
+*.mp3
+*.wav
+*.flac
+*.aac
+*.m4a
+*.png
+*.jpg
+*.jpeg
+*.gif
+*.webp
+*.psd
+*.heic
+
+# --- installed by Install-Studio.ps1 ---
+/.venv/
+/cache/
+/models/
+/tools/
+/logs/
+/repos/
+/.agents/
+/.context/
+/.studio-portable.json
+node_modules/
+
+# --- your projects: only the shared Remotion project is part of the repo ---
+/projects/*
+!/projects/renderer/
+/projects/renderer/public/
+/projects/renderer/out/
+
+# --- local Claude settings, credentials, keys ---
+/.claude/settings.local.json
+.env
+.env.*
+*.pem
+*.key
+.credentials.json
+.claude.json
+
+# --- python / os noise ---
+__pycache__/
+*.pyc
+Thumbs.db
+.DS_Store

@@ -1,0 +1,14 @@
+{
+  "args": [
+    "--mcp",
+    "headless"
+  ],
+  "env": {
+    "LOCALAPPDATA": "E:\\Video\\cache\\localappdata",
+    "CONCAT_MCP_ROOTS": "E:\\Video",
+    "APPDATA": "E:\\Video\\cache\\appdata",
+    "XDG_CONFIG_HOME": "E:\\Video\\cache\\config",
+    "XDG_DATA_HOME": "E:\\Video\\cache\\data"
+  },
+  "command": "E:\\Video\\tools\\Concat-0.2.8\\concat.exe"
+}
